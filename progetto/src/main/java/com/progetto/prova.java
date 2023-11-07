@@ -1,3 +1,5 @@
+package main.java.com.progetto;
+
 @DocsService(name = "prova", description = "Service description")
 public class prova extends KokosService {
 
