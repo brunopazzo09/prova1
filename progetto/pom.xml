@@ -18,6 +18,13 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+  <properties>
+    <keystore.location>C:\Users\Gabriel.Salerno\Documents\keystore.jks</keystore.location>
+    <keystore.password>password123</keystore.password>
+    <keystore.alias>certificato</keystore.alias>
+    <key.password>password123</key.password>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -77,6 +84,10 @@
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
+        </plugin>
+        <plugin>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-maven-plugin</artifactId>
         </plugin>
       </plugins>
     </pluginManagement>
