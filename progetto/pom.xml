@@ -26,13 +26,16 @@
       <scope>test</scope>
     </dependency>
 
-    <dependency>
+  <!--
+  <dependency>
     <groupId>com.smeup.kokos</groupId>
-        <artifactId>kokos-sdk-java</artifactId>
-        <version>x</version>
-    </dependency>
-  </dependencies>
+    <artifactId>kokos-sdk-java</artifactId>
+    <version>x</version>
+  </dependency>
+  -->
 
+  </dependencies>
+  
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
